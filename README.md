@@ -1,16 +1,33 @@
-# React + Vite
+🔥 SafeStay AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered emergency response system for hotels and hospitality environments.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚨 Emergency reporting system
+🤖 AI-based severity detection (Gemini API)
+👨‍🚒 Smart staff assignment (distance + workload balancing)
+📊 Real-time dashboard (Firebase)
+🔄 Live incident tracking
+How it works
 
-## React Compiler
+User reports an emergency
+AI analyzes severity using Gemini
+System assigns best available staff
+Incident is tracked in real-time
+Status updates until resolved
+Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js
+Firebase Firestore
+Google Gemini API
+JavaScript / CSS
+Links
 
-## Expanding the ESLint configuration
+Live App: https://safestay-ai-832b5.web.app
+Demo Video: https://youtu.be/FMRof-mSOt4
+Future Improvements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GPS-based tracking
+Voice-based reporting
+💡 Project Goal To improve emergency response time and coordination in hospitality environments using AI-driven decision making.
